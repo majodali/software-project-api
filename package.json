@@ -1,0 +1,35 @@
+{
+  "name": "software-project-api",
+  "version": "1.0.0",
+  "description": "A software project API for creating, updating, and building software project source code programmatically",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "software",
+    "project",
+    "api",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^18.19.49",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "dependencies": {
+    "glob": "^11.0.0"
+  }
+}
